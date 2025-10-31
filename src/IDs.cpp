@@ -1,5 +1,6 @@
 #include "IDs.hpp"
 #include "StoryBlock.hpp"
+#include <stdexcept>
 
 EntityIDs* EntityIDs::ENTITY_IDS = new EntityIDs();
 StoryBlockIDs* StoryBlockIDs::STORY_BLOCK_IDS = new StoryBlockIDs();
