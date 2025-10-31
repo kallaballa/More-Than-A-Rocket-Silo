@@ -1,4 +1,5 @@
 #include "StoryBlock.hpp"
+#include <stdexcept>
 
 
   std::vector<string> StoryBlock::resolve(const std::vector<EntityID>& entityList) {
